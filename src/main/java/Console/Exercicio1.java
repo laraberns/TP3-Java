@@ -6,7 +6,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class Exercicio1 {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         try {
             String path = "https://apichallenges.eviltester.com/sim/entities";
             URL url = new URL(path);
